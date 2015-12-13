@@ -1,5 +1,5 @@
-FROM steeve/cross-compiler:windows-x86
-MAINTAINER Steeve Morin "steeve.morin@gmail.com"
+FROM hypernurb/cross-compiler:windows-x86
+MAINTAINER Ivan Križnar "ivan@simplified.me"
 
 RUN mkdir -p /build
 WORKDIR /build
